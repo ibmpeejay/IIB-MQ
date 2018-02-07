@@ -71,7 +71,7 @@ config()
     fi
     echo "----------------------------------------"
   fi
-  strmqm ${MQ_QMGR_NAME}
+  strmqm -x ${MQ_QMGR_NAME}
 
   # Turn off script failing here because of listeners failing the script
   set +e
